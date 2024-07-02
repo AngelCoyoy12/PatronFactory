@@ -13,7 +13,7 @@ public class UrgenteNotificacionFactory implements NotificacionFactoryIn {
     }
 
     @Override
-    public AppNotification crearAppAplicacion() {
+    public AppNotification crearAppNotificacion() {
         return new AppNotification();
     }
 }

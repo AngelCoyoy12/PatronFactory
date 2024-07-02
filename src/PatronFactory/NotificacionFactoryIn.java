@@ -4,5 +4,5 @@ public interface NotificacionFactoryIn {
 
         EmailNotificacion crearEmailNotificacion();
         SMSNotificacion crearSMSNotificacion();
-        AppNotification crearAppAplicacion();
+        AppNotification crearAppNotificacion();
 }
